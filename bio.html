@@ -4,25 +4,49 @@
         <title>Personal bio</title>
         <style>
             body {background-color: lightslategray;}
+            h1 {
+                text-align: center;
+                background-color: black;
+                color: white;
+                padding-bottom: 30px;
+                padding-top: 30px; 
+            }
+            h2 {
+                text-align: left;
+                font-size: 36px;
+                text-decoration-thickness: 6px;
+                padding-bottom: 0px}
             img {
                 border: 5px solid white;
-                margin-left: auto;
-                margin-right: auto;
-                display: block;}
-            h2 {
-                text-align: center;
-                font-size: 36px;
-                text-decoration-thickness: 6px;}
+                float: left;
+                vertical-align: middle;}
             .highlight {
-                font-size: 30px;
-                text-align: center;
-                padding-right: 300px;
-                padding-left: 300px;
-                text-decoration: underline;}
+                font-size: 18px;
+                font-weight: bold;
+                text-align: top;
+                padding-right: 0px;
+                padding-left: 250px;}
             p {
-                padding-left: 150px;
-                padding-right: 150px;
+                padding-left: 250px;
+                padding-right: 0px;
                 text-align: justify;}
+            
+            ul {
+                float: right;
+                vertical-align: middle;
+            }
+            
+            h3 {
+                float: right;
+            }
+            
+            .contact_block {
+                background-color: lightblue;
+                border: solid black 1px;
+                width: 200px;
+                block-size: 200px;
+                float: right;
+                }
 
         </style>
     </head>
@@ -32,16 +56,16 @@
         <h2>Maxime Bellefeuille</h2>
         <img src="default-profile-picture1-768x768.jpg" alt="profile photo" title="profile photo" width = 200 height = 200>
     
-        <p class="highlight">I am a research assistant in functional genomics and I am looking to expand my field of knowledge.</p>
+        <p class="highlight">Research assistant in functional genomics looking to expand his field of knowledge.</p>
         
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis posuere ipsum, eu laoreet quam. Donec neque turpis, maximus faucibus porttitor ac, hendrerit vel est. Maecenas eros turpis, ullamcorper at tempus et, gravida sit amet massa. Donec quis ipsum metus. Sed at pellentesque eros, in tempor enim. Praesent facilisis neque eget eros vehicula tristique. Pellentesque eu sagittis dolor, sollicitudin venenatis odio. Vivamus sed porttitor mi, sit amet interdum lorem. Sed sed venenatis sapien. Pellentesque rhoncus orci luctus, laoreet lectus ac, mattis tortor. Donec id fermentum justo. Integer dapibus pulvinar efficitur. Etiam auctor quam vitae sodales dapibus. Mauris a commodo leo. Integer tristique, diam non ultrices efficitur, libero tellus vulputate neque, eget ullamcorper tortor magna pulvinar odio. </p>
     
-        <h1>Contact Info</h1>
+        <h3>Contact Info</h3>
         <ul>
             <li>Email: <a href="mailto:nothing@gmail.com">Send email</a></li>
             <li>Github: <a href="https://github.com/maxbellefeuille" target="_blank">maxbellefeuille</a></li>
             <li>Portfolio: <a href="#">coming soon</a></li>
         </ul>
-    
+        <div class="contact_block"></div>
     </body>
 </html>
